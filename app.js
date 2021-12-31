@@ -31,7 +31,7 @@ function calculateProfitAndLoss(purchase,quantity,current){
             var lossPercent = (((purchase - current)*100)/purchase).toFixed(2);
             showOutput(`Oh No!😦 You lost ${lossPercent}%. Your total loss is ₹${loss}`);
             body.classList.add("sad");
-
+            lottie.style.display = "none";
         }
         else if(current > purchase){
             var profit = (current - purchase)*quantity;
@@ -43,10 +43,12 @@ function calculateProfitAndLoss(purchase,quantity,current){
         else{
             showOutput(`Even-Steven!😇 Niether a gain, nor a loss`);
             body.classList.remove("sad");
+            lottie.style.display = "none";
         }
     }else{
         showOutput(`Values should be greater than 0`);
         body.classList.remove("sad");
+        lottie.style.display = "none";
     }
     
 };
