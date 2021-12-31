@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Avneet | Stocks Calculator</title>
+</head>
+<body id="body">
+    
+        <lottie-player id="lottie" src="https://assets7.lottiefiles.com/private_files/lf30_kvdn44jg.json"
+            background="transparent" speed="1" style="position: absolute;z-index: -1; width: 100%; height: 100vh;" autoplay
+            loop>
+        </lottie-player>
+        <div class="container">
+            <h1>Stocks Calculator</h1>
+            <p>Calculate how much profit or loss you are making on your stocks.</p>
+        
+            <form class="main-form">
+
+                <label for="purchase-price">Purchase Price</label>
+                <input type="number" id="purchase-price" placeholder="Enter Cost Price of Stock" required>
+                
+                <label for="stock-quantity">Stock Quantity</label>
+                <input type="number" id="stock-quantity" placeholder="Enter Quantity of Stock" required>
+                
+                <label for="current-price">Current Price</label>
+                <input type="number" id="current-price" placeholder="Enter Current Price of Stock" required> 
+                
+
+                <button id = "btn-check" type="submit">Check</button>
+            </form>
+            
+            <div id="output"></div>
+        
+            <footer>       
+                <ul class="footer-ul">
+                <li><a class="menu footer-nav" target="_blank" href="https://github.com/Avneet-k"><i class="fab fa-github-alt"></i></a>
+                </li>
+                <li><a class="menu footer-nav" target="_blank" href="https://www.linkedin.com/in/avneet-kaur-34b7b9190/"><i	class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="menu footer-nav" target="_blank" href="https://www.instagram.com/ni_cecodes"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="menu footer-nav" target="_blank" href="https://twitter.com/Avneet_K2"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+                <div class="futer">©2021 Made by Avneet💖</div>
+            </footer>
+
+
+        </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>

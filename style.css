@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    color:white;  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);            
+    font-family: 'Open Sans', sans-serif;
+}
+.sad{
+    background: #808080;
+}
+.sad button {
+    background-color:black;
+}
+.sad button:hover{
+    background-color: #353333;
+}
+.sad .footer-ul i:hover{
+    color:#353333;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+  }  
+h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+p{
+    font-size:18px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom:8px;
+    text-align: left;
+}
+input{   
+    padding: 0.8rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom:25px;
+    font-size:14px;
+    cursor: pointer;
+}
+button{
+    padding: 8px 22px;
+    border: 2px solid black;
+    color:white;
+    border-radius:4px;
+    font-size:20px;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-top:1.7rem;
+    background-color: #0F2027;
+    cursor:pointer;
+}
+button:hover{
+   background-color:#4a9fc4;
+}
+
+#output{
+    display: block;
+    margin: 2.7rem auto;
+    width:90%;
+    height: 30px;
+    padding:1rem;
+    text-align: center;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px 4px rgba(0, 0, 0, 0.05);
+}
+footer{
+    text-align: center;
+    width: 100%;
+    font-size:16px;
+    padding-bottom:15px;
+}
+.footer-ul{
+    margin-top:40px;
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding:0;
+}
+.footer-nav{
+    text-decoration: none;
+}
+.menu{
+    margin:12px;
+    text-decoration: none;
+}
+.footer-ul i{
+    font-size:27px;
+    color:black;
+}
+.footer-ul i:hover{
+    color:#4a9fc4 ;
+}
